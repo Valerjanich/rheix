@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Rheix Core
+Comment=Rheix P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Rheix peer-to-peer Netzwerk
+Comment[fr]=Rheix, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Rheix, eşten eşe kriptografik sanal para birimi
+Exec=rheix-qt %u
+Terminal=false
+Type=Application
+Icon=rheix128
+MimeType=x-scheme-handler/rheix;
+Categories=Office;Finance;

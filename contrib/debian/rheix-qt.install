@@ -1,0 +1,6 @@
+usr/local/bin/rheix-qt usr/bin
+share/pixmaps/rheix32.xpm usr/share/pixmaps
+share/pixmaps/rheix16.xpm usr/share/pixmaps
+share/pixmaps/rheix128.png usr/share/pixmaps
+debian/rheix-qt.desktop usr/share/applications
+debian/rheix-qt.protocol usr/share/kde4/services/
