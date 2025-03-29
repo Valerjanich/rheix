@@ -586,14 +586,15 @@ public:
         consensus.nFounderPayment = FounderPayment(rewardStructures, 1);
 		
         consensus.nCollaterals = SmartnodeCollaterals(
-          { {88720, 850000 * COIN},
-            {132720, 950000 * COIN},
-            {176720, 1150000 * COIN},
-            {220720, 1400000 * COIN},
-            {264720, 1950000 * COIN},
-            {INT_MAX, 1950000 * COIN}
-          },
-          { {3090, 0}, {INT_MAX, 56} }
+         { {88720, 850000 * COIN},
+           {132720, 950000 * COIN},
+           {176720, 1150000 * COIN},
+           {220720, 1400000 * COIN},
+           {264720, 1950000 * COIN},
+           {270500, 2000000 * COIN}, 
+           {INT_MAX, 2000000 * COIN}
+        },
+          { {3090, 0}, {INT_MAX, 56} }    // Başlangıçta 0, sonra 56 olarak belirlenen teminat miktarları
         );
         //FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8,0.2,0.0);
